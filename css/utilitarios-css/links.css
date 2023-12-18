@@ -1,0 +1,22 @@
+/* LINKS   */
+
+a {
+    text-decoration: none;
+}
+
+.link-arrow {
+    text-transform: uppercase;
+    color: var(--cor-accent);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.link-arrow::after {
+    content: '-->';
+    margin-left: 5px;
+    transition: margin-left .5s;
+}
+
+.link-arrow:hover::after {
+    margin-left: 10px;
+}

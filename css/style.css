@@ -1,6 +1,12 @@
 /* reset */
-@import './reset.css';
+@import './utilitarios-css/reset.css';
 /* cores */
-@import './cores.css';
+@import './utilitarios-css/cores.css';
 /* tipografia */
-@import './tipografia.css';
+@import './utilitarios-css/tipografia.css';
+/* links */
+@import './utilitarios-css/links.css';
+/* badge */
+@import './utilitarios-css/badge.css';
+/* listas */
+@import './utilitarios-css/lista.css'

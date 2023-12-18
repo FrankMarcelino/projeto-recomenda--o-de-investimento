@@ -1,0 +1,25 @@
+/* LISTA */
+
+.list {
+    list-style: none;
+    padding: 0;
+    color: var(--cor-headings);
+}
+
+.list--tick {
+    list-style-image: url(../../imagens/tick.png);
+    padding-left: 3rem;
+}
+
+.list--tick .list__item {
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .list--tick .list__item {
+        padding-left: 0;
+        font-size: 2.3rem;
+    }
+
+}
