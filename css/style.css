@@ -9,4 +9,6 @@
 /* badge */
 @import './utilitarios-css/badge.css';
 /* listas */
-@import './utilitarios-css/lista.css'
+@import './utilitarios-css/lista.css';
+/* icons */
+@import './utilitarios-css/icons.css';
