@@ -1,0 +1,27 @@
+/* botões */
+
+.btn {
+    border-radius: 40px;
+    border: 0;
+    cursor: pointer;
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding: 2rem 3rem;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.btn--primario {
+    background: var(--cor-primaria);
+    color: var(--cor-branco);
+}
+
+.btn--secundario {
+    background-color:var(--cor-secundaria);
+    color: var(--cor-branco);
+}
+
+.btn--accent {
+    background-color: var(--cor-accent);
+    color: var(--cor-branco);
+}
