@@ -9,6 +9,13 @@
     padding: 2rem 3rem;
     text-transform: uppercase;
     white-space: nowrap;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.btn--block {
+  width: 100%;
+  display: inline-block;   
 }
 
 .btn--primario {
@@ -16,12 +23,41 @@
     color: var(--cor-branco);
 }
 
+.btn--primario:hover {
+    background:#388eff ;
+}
+
 .btn--secundario {
     background-color:var(--cor-secundaria);
     color: var(--cor-branco);
 }
 
+.btn--secundario:hover {
+    background-color: #25deff;
+}
+
 .btn--accent {
     background-color: var(--cor-accent);
     color: var(--cor-branco);
+}
+
+.btn--accent:hover {
+    background-color: #ff491c;
+}
+
+.btn--outline {
+    background-color: var(--cor-branco);
+    color: var(--cor-headings);
+    border: 1px solid  var(--cor-headings);
+}
+
+.btn--outline:hover {
+    background-color: var(--cor-headings);
+    color: var(--cor-branco);
+}
+
+@media screen and (min-width: 1024px) {
+    .btn {
+        font-size: 1.5rem;
+    }
 }
