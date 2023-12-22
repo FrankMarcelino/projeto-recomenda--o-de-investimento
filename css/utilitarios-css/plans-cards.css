@@ -1,0 +1,44 @@
+/* plans cards */
+
+.plan__name  {
+    color: var(--cor-branco);
+    margin: 0;
+    font-weight: 500;
+    font-size: 2.4rem;
+}
+
+.plan__price {
+    font-size: 6rem;
+}
+
+.plan__billing-cycle {
+    font-size: 2.4rem;
+    font-weight: 300;
+    margin-right: 1rem;
+    opacity: 0.8;
+}
+
+.plan__descricao {
+    display: block;
+    font-size: 2rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.plan .list__item {
+    margin-bottom: 2rem;
+}
+
+
+.plan--decoracao .card__header {
+    position: relative;
+}
+
+.plan--decoracao .card__header::before {
+    content: url(../../imagens/popular.svg);
+    display: inline-block;
+    width: 60px;
+    position: absolute;
+    top: 0;
+    right: 5%;
+}

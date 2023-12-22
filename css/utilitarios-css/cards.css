@@ -20,3 +20,11 @@
     background-color: var(--cor-secundaria);
     color: var(--cor-branco);
 }
+
+.card--secundario .badge--secundario {
+    background-color: #00bfe1;
+}
+
+.card--primario .badge--primario {
+    background-color: #126de4;
+}
