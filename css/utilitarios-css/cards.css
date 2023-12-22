@@ -15,3 +15,8 @@
     background-color: var(--cor-primaria);
     color: var(--cor-branco);
 }
+
+.card--secundario .card__header {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-branco);
+}
