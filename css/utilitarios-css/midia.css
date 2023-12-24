@@ -1,0 +1,19 @@
+/* midia */
+
+.midia {
+    display: flex;
+
+}
+
+.midia__image img {
+    width: 80px;
+}
+
+.midia-title,
+.midia__description {
+    margin: 0;
+}
+
+.media__body {
+    margin: 0 2rem;
+}
